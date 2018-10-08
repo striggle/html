@@ -2,7 +2,7 @@
     font-size: 2em;
     font-weight: bold
 }
-div {
+.aligntop, .rightjust {
     width: 49%;
     display: inline-block;
 }
@@ -11,4 +11,16 @@ div {
 }
 .aligntop {
     vertical-align: top;
+}
+table {
+    width: 100%;
+}
+td {
+    text-align: center
+}
+.role {
+    font-weight: bold;
+}
+.company{
+    font-style: italic;
 }
